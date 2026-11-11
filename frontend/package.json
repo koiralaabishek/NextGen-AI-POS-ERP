@@ -1,0 +1,19 @@
+{
+  "name": "nextgen-pos-erp-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:dashboard": "npm run --prefix apps/dashboard dev",
+    "dev:pos": "npm run --prefix apps/pos dev",
+    "dev:admin": "npm run --prefix apps/platform-admin dev",
+    "build": "npm run --workspaces build",
+    "test": "npm run --workspaces test"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

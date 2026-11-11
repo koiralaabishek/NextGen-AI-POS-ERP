@@ -1,0 +1,17 @@
+{
+  "name": "@nextgen/api-client",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.7.4",
+    "@nextgen/shared-types": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

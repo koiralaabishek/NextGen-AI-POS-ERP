@@ -1,0 +1,8 @@
+. Nepal Demo Data Seeder (manage.py seed_demo_data):
+      • Implemented an idempotent command (seed_demo_data.py) provisioning:
+          • Platform admin (admin@namaste.np / password123) & cashier accounts (cashier1@namaste.np / password123).
+          • "Namaste Supermarket Pvt. Ltd." with PAN/VAT 601234567.
+          • Chart of accounts, multi-warehouse stock balances, and FMCG products (Shakti Flour, Basmati Rice, Dhara Oil, Wai Wai, DDC Milk).
+          • Customer Khata credit ledgers (Ramesh Sharma, Sita Thapa, Kushal Shrestha).
+          • Active Enterprise subscription.
+
